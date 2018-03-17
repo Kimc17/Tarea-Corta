@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kimberlyc/CLionProjects/TareaCorta/BigArray.cpp
+stdlib.h
+-
+iostream
+-
+BigArray.h
+/home/kimberlyc/CLionProjects/TareaCorta/BigArray.h
+math.h
+-
+fstream
+-
+
+/home/kimberlyc/CLionProjects/TareaCorta/BigArray.h
+fstream
+-
+
+/home/kimberlyc/CLionProjects/TareaCorta/main.cpp
+BigArray.h
+/home/kimberlyc/CLionProjects/TareaCorta/BigArray.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
